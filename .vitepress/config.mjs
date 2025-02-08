@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress";
+import nav from "./nav.mjs";
+import sidebar from "./sidebar.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,21 +9,10 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/favicon.ico" }]], // 浏览器标签页图标
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
-    ],
-
+    // 导航栏
+    nav,
     // 侧边栏
-    sidebar: [
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-    ],
+    sidebar,
 
     // 顶部右侧社交链接
     socialLinks: [
