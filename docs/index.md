@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: 油猴脚本
       link: /油猴
+    - theme: alt
+      text: vue
+      link: /learn/vue2/1
 
 features:
   - title: vue
