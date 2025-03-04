@@ -1,0 +1,28 @@
+export default [
+  { text: "首页", link: "/" },
+  {
+    text: "前端教程",
+    items: [
+      { text: "油猴开发", link: "/油猴" },
+      { text: "HTML", link: "/html" },
+      { text: "CSS", link: "/css" },
+      { text: "JavaScript", link: "/javascript" },
+      { text: "Vue", link: "/vue" },
+      { text: "React", link: "/react" },
+      { text: "TypeScript", link: "/typescript" },
+      { text: "Node.js", link: "/nodejs" },
+      { text: "Webpack", link: "/webpack" },
+      { text: "Vite", link: "/vite" },
+      { text: "Git", link: "/git" },
+      { text: "Docker", link: "/docker" },
+      { text: "Kubernetes", link: "/kubernetes" },
+      { text: "Linux", link: "/linux" },
+      { text: "数据库", link: "/database" },
+      { text: "算法", link: "/algorithm" },
+      { text: "面试", link: "/interview" },
+      { text: "其他", link: "/other" },
+    ],
+  },
+  { text: "面试", link: "/markdown-examples" },
+  { text: "Examples", link: "/markdown-examples" },
+];
